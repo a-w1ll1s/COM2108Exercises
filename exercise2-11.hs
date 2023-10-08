@@ -1,2 +1,2 @@
 pyths :: Int -> [(Int, Int, Int)]
-pyths x = [(a,b,c) | a<-[1..x], b<-[1..x], c<-[1..x], (a^2)+(b^2) == (c^2)]
+pyths xs = [(a,b,c) | a<-[1..xs], b<-[1..xs], c<-[1..xs], (a^2)+(b^2) == (c^2)]
